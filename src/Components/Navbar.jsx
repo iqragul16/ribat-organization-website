@@ -231,27 +231,23 @@ export default function Navbar() {
 
             {/* ================= SERVICES ================= */}
 
-            <button
-              type="button"
-              onClick={() => goToSection("services")}
-              className="
-                whitespace-nowrap
-                border-0
-                bg-transparent
-                p-0
-                text-[12px]
-                font-medium
-                text-[#333333]
-                transition
-                duration-300
-                hover:text-[#9d0b0b]
+            <Link
+  to="/services"
+  className="
+    whitespace-nowrap
+    text-[12px]
+    font-medium
+    text-[#333333]
+    transition
+    duration-300
+    hover:text-[#9d0b0b]
 
-                lg:text-[13px]
-                xl:text-[14px]
-              "
-            >
-              Services
-            </button>
+    lg:text-[13px]
+    xl:text-[14px]
+  "
+>
+  Services
+</Link>
 
 
             {/* ================= PROGRAMS ================= */}
@@ -561,25 +557,23 @@ export default function Navbar() {
 
             {/* ================= SERVICES ================= */}
 
-            <button
-              type="button"
-              onClick={() => goToSection("services")}
-              className="
-                w-full
-                border-b
-                border-gray-100
-                bg-transparent
-                py-3
-                text-left
-                text-[15px]
-                font-medium
-                text-[#3f332c]
-                transition
-                hover:text-[#9d0b0b]
-              "
-            >
-              Services
-            </button>
+            <Link
+  to="/services"
+  onClick={() => setMenuOpen(false)}
+  className="
+    w-full
+    border-b
+    border-gray-100
+    py-3
+    text-[15px]
+    font-medium
+    text-[#3f332c]
+    transition
+    hover:text-[#9d0b0b]
+  "
+>
+  Services
+</Link>
 
 
             {/* ================= PROGRAMS ================= */}

@@ -20,31 +20,34 @@ function JoinTeam() {
 
       {/* ================= INTRO + MAIN IMAGE ================= */}
       <section className="w-full bg-[#f1f6ff]">
-
 {/* ================= INTRO ================= */}
-<div
-  className="
-    mx-auto
-    max-w-[1200px]
-    px-6
-    py-12
-    text-center
-    md:py-16
-  "
->
+<div className="
+  mx-auto
+  max-w-[1200px]
+  px-5
+  py-10
+  text-center
+  sm:px-6
+  sm:py-12
+  md:py-14
+  lg:py-16
+">
+
   {/* Heading */}
   <h1
     className="
       mx-auto
       text-center
-      text-[30px]
       font-bold
       leading-tight
       text-[#9d0b0b]
-      sm:text-[34px]
-      md:text-[40px]
-      lg:text-[44px]
-    "style={{ color: "#9d0b0b" }}
+      text-[28px]
+      sm:text-[32px]
+      md:text-[38px]
+      lg:text-[42px]
+      xl:text-[44px]
+    "
+    style={{ color: "#9d0b0b" }}
   >
     Join Our Team!
   </h1>
@@ -55,18 +58,21 @@ function JoinTeam() {
       mx-auto
       mt-4
       w-full
-      max-w-[1100px]
+      max-w-[1050px]
       text-center
-      text-[14px]
-      leading-[1.5]
+      text-[13px]
+      leading-6
       text-[#555]
-      whitespace-nowrap
+      sm:text-[14px]
       md:text-[15px]
       lg:text-[16px]
+      xl:text-[17px]
     "
   >
-    Ribat is guiding Muslims towards discovering meaning and confidence in their faith. You can be a key part of that mission.
+    Ribat is guiding Muslims towards discovering meaning and confidence in
+    their faith. You can be a key part of that mission.
   </p>
+
 </div>
 
         {/* ================= MAIN IMAGE ================= */}
