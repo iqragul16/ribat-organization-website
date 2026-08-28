@@ -24,8 +24,8 @@ import HarmonyResolutionCenter from "./Pages/HarmonyResolutionCenter";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
+<BrowserRouter basename="/ribat-website">     
+ <Routes>
 
         {/* ================= HOME ================= */}
         <Route
