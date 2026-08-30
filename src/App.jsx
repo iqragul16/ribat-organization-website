@@ -24,7 +24,7 @@ import HarmonyResolutionCenter from "./Pages/HarmonyResolutionCenter";
 
 function App() {
   return (
-<HashRouter basename="/ribat-website">     
+<HashRouter >     
  <Routes>
 
         {/* ================= HOME ================= */}
