@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Programs from "./Pages/Programs";
@@ -24,7 +24,7 @@ import HarmonyResolutionCenter from "./Pages/HarmonyResolutionCenter";
 
 function App() {
   return (
-<BrowserRouter basename="/ribat-website">     
+<HashRouter basename="/ribat-website">     
  <Routes>
 
         {/* ================= HOME ================= */}
@@ -121,7 +121,7 @@ function App() {
   element={<HarmonyResolutionCenter />}
 />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
