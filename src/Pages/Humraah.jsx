@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import HummrahSection from "../Components/HummrahSection";
 import VideoSection from "../Components/Videosection";
-import HumraahPrograms from "../Components/HumraahPrograms";
+import HumraahPrograms from "../Components/Humraahprograms";
 import SupportHumraah from "../Components/SupportHumraah";
 
 const Humraah = () => {
