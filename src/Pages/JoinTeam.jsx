@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 
 import joinTeamImage from "../assets/jointeam.jpg";
 import volunteer from "../assets/Volunteer.webp";
-import ambassador from "../assets/ambassador.png";
+import ambassador from "../assets/Ambassador.png";
 
 function JoinTeam() {
   return (
